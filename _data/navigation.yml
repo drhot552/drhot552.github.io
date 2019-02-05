@@ -2,8 +2,8 @@
 main:
   - title: "Blog"
     url: /blog/
-  - title: "BlockChain"
-    url: /blockchain/
+  - title: "Tag"
+    url: /tag/
   - title: "Development"
     url: /development/
   # - title: "About"
