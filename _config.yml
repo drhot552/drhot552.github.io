@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Smartna Development Blog"
 title_separator          : "-"
 name                     : "윤민재"
-description              : "금융IT개발자, 블록체인DAPP개발자, 서버 및 SQL개발자"
+description              : "개발을 좋아하는 생각많은 개발자 입니다. 현재 금융IT를 개발하고있고 블록체인 DAPP개발에 관심을 가지고 있습니다."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -64,14 +64,18 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : algolia # lunr (default), algolia
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id         : MWW8QKQ1HO # YOUR_APPLICATION_ID
+  index_name             : my_blog # YOUR_INDEX_NAME
+  search_only_api_key    : 1f11bf0c7f9083752fd8283f2187e6a7 # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : true # true (default), false
+  files_to_exclude:
+      - _posts/2017-11-28-post-exclude-search.md
+
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
@@ -108,9 +112,8 @@ analytics:
 author:
   name             : "윤민재"
   avatar           : "/assets/img/minjae.jpeg"
-  bio              : "금융IT개발자, 블록체인DAPP개발자,
-                      서버 및 SQL개발자"
-  location         : "Somewhere"
+  bio              : "개발을 좋아하는 생각많은 개발자 입니다. 현재 금융IT에 종사하고있고 블록체인 DAPP개발에 관심을 가지고 있습니다."
+  location         : "Seoul"
   email            :
   links:
     - label: "Email"
@@ -137,7 +140,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/drhot552"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
