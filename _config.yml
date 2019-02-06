@@ -73,9 +73,7 @@ algolia:
   index_name             : my_blog # YOUR_INDEX_NAME
   search_only_api_key    : 1f11bf0c7f9083752fd8283f2187e6a7 # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : true # true (default), false
-  files_to_exclude:
-      - _posts/2017-11-28-post-exclude-search.md
-
+  
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
