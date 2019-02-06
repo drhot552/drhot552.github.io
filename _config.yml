@@ -73,6 +73,11 @@ algolia:
   index_name             : blog # YOUR_INDEX_NAME
   search_only_api_key    : 1f11bf0c7f9083752fd8283f2187e6a7 # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
+  extensions_to_index    :
+    - html
+    - md
+    - adoc
+    - textile
 
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
