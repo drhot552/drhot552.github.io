@@ -41,7 +41,6 @@ layout: default
               {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
             </nav>
           </aside>
-
         {% endif %}
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
@@ -58,22 +57,11 @@ layout: default
           <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
         {% endif %}
       </footer>
+
       {% if page.share %}{% include social-share.html %}{% endif %}
 
       {% include post_pagination.html %}
     </div>
-
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- 하단광고 -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-8532671905114810"
-         data-ad-slot="4590458224"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
 
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
       {% include comments.html %}
