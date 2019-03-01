@@ -63,6 +63,9 @@ layout: default
         {% endif %}
       </footer>
 
+
+      {% if page.share %}{% include social-share.html %}{% endif %}
+
       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <ins class="adsbygoogle"
            style="display:block; text-align:center;"
@@ -73,8 +76,6 @@ layout: default
       <script>
            (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
-      {% if page.share %}{% include social-share.html %}{% endif %}
-
       {% include post_pagination.html %}
     </div>
 
