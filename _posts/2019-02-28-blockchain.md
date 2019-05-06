@@ -6,7 +6,6 @@ categories:
 last_modified_at: 2019-02-28T18:06:00-05:00
 tags:
   - Blockchain
-  - 합의알고리즘
 ---
 
 
