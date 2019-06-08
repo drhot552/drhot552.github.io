@@ -20,7 +20,7 @@ title                    : "Smartna Development Blog"
 title_separator          : "-"
 name                     : "윤민재"
 description              : "금융IT, 블록체인 개발"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://drhot552.github.io/
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "윤민재"
   avatar           : "/assets/img/minjae.jpeg"
-  bio              : "현재 금융IT에 종사하고있고 블록체인 DAPP개발에 관심을 가지고 있습니다."
+  bio              : "현재 금융IT에 종사하고있고 웹기술, 데이터기술, 블록체인 등 다양한 IT에 관심을 가지고있습니다."
   location         : "Seoul"
   email            :
   links:
@@ -294,5 +294,3 @@ defaults:
       comments: # true
       share: true
       related: true
-
-theme: jekyll-theme-cayman

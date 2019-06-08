@@ -1,2 +1,3 @@
 User-agent: *
-Allow: 
+Allow: /
+Sitemap: http://drhot552.github.io/sitemap.xml
