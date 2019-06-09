@@ -23,6 +23,7 @@
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
+    padding-right : 200px;
   }
 
   @include breakpoint($x-large) {

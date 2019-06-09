@@ -7,6 +7,8 @@ last_modified_at: 2019-04-13T18:06:00-05:00
 tags:
   - Web
   - FrontEnd
+toc: true
+toc_label: "웹기술"
 ---
 
 # Herelux
