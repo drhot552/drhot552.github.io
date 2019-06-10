@@ -1,5 +1,5 @@
 ---
-title:  "[Web]Webpack bundle.js 파일성능개선"
+title:  "[Web]Webpack Bundle.js파일 성능개선"
 
 categories:
   - Web
@@ -8,7 +8,7 @@ tags:
   - Client
   - Web
 toc: true
-toc_label: "Webpack bundle.js 파일성능개선"
+toc_label: "Webpack Bundle.js파일 성능개선하기"
 ---
 
 # Webpack과 Bundle.js
@@ -17,13 +17,15 @@ Webpack은 css,js,file 등을 하나의 파일로 만드는 만큼 용량이 클
 
 웹 개발을 하다보면 점점 라이브러리를 설치하게되고, 용량도 커지게 됩니다.  
 때문에 사용자가 웹 페이지에 접근할 때 bundle.js의 용량이 커지게 되면 처음 웹페이지 처리 속도가 현저히 떨어질 수 밖에 없습니다.  
+
+
 아래 그림은 처음 Herelux 베타버전을 Vue로 웹 프론트엔드를 개발할 당시 겪은 bundle.js의 파일 크기 입니다.  
 
 
 ![Image Alt 텍스트](/assets/img/server/bundle_1.png)
 
 무려....**5.27MB** 입니다.  
-이러면 웹 페이지를 접속할때마다 5.27MB를 다운받고 있는 것입니다.  
+이러면 웹 페이지를 접속할때마다 **5.27MB** 를 다운받고 있는 것입니다.  
 실제로 페이지로딩이 체감상 느렸습니다. 트래픽이라도 늘어나면 매우비효율적이죠.
 
 어떻게 줄일 수 있을까요?? 먼저 bundle.js 을 분석하면서 많이 잡아먹는 라이브러리를 분석해야 합니다.
@@ -34,10 +36,10 @@ Webpack은 css,js,file 등을 하나의 파일로 만드는 만큼 용량이 클
 
 * 코드 스플리팅 syntax-dynamic-import
 
-## webpack bundle.js의 파일 분석하기.
+# webpack bundle.js의 파일 분석하기.
 > npm i webpack-bundle-analyzer
 
-### webpack.config.js에 추가
+## webpack.config.js에 추가
 ```js
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 module.exports.plugins = (module.exports.plugins || []).concat([
@@ -56,13 +58,13 @@ module.exports.plugins = (module.exports.plugins || []).concat([
 **node_module** 과 **src** 부분으로 나누어집니다. node_module은 라이브러리를 나타내고 src는 scss와 vue,js파일들을 보여줍니다.  
 `webpack-bundle-analyzer`는 이처럼 높은 bundle.js에 내가 불필요한 모듈을 사용하고 있는 건 아닌지, 또는 과도한 용량을 잡아먹고있는 모듈을 볼 수 있습니다.
 
-## UglifyJs
+# UglifyJs
 첫번째 방식에서 더이상 줄일 수 있는 모듈이 없다면, UglifyJs를 사용합니다.
 Webpack 포스팅에서도 설명했지만 UglifyJs는 코드를 난독화 하는 방식으로 길고 긴 코드의 양을 난독화 시켜 엄청나게 축소시키는 방식을 말합니다.  
 정말 어마어마한 효과를 가지고 있습니다.  
 Webpack4는 그래서 기본적으로 UglifyJs가 내장되어있어요.  
 
-### webpack.config.js plugin부분
+## webpack.config.js plugin부분
 ```js
 new webpack.optimize.UglifyJsPlugin({
   sourceMap: true,
@@ -74,18 +76,18 @@ new webpack.optimize.UglifyJsPlugin({
 5.5MB에서 860kb로 줄어든걸 확인할 수 있습니다. 무려 5배가량이 줄었습니다..
 ![Image Alt 텍스트](/assets/img/server/bundle_3.png)
 
-## 코드 스플릿팅 syntax-dynamic-import
+# 코드 스플릿팅 syntax-dynamic-import
 보통 Vue나 React 프레임웍으로 개발하게 되면 각 화면, 기능별로 템플릿을 나누어서 개발하게 됩니다.  
 SPA(Single Page Application)의 특징상 많은 파일들이 생성될 수 밖에 없습니다. 하지만 bundle.js의 용량만 늘어나게 되죠.  
 
-### babel syntax-dynamic-import
+## babel syntax-dynamic-import
 babel은 자바스크립트의 문법에 구속되지 않게 개발할 수 있게 하는 하나의 모듈입니다.(ex:ES6, ES7)  
 bable에 syntax-dynamic-import을 추가하게 되면 문법에 구속되지 않게 되죠.
 
 > npm install --save-dev @babel/plugin-syntax-dynamic-import
 
 설치가 완료되면 **.babelrc** 파일에 아래코드를 작성합니다.
-### .babelrc
+## .babelrc
 ```js
 {
   "presets": [
@@ -104,13 +106,13 @@ bable에 syntax-dynamic-import을 추가하게 되면 문법에 구속되지 않
   ]
 }
 ```
-### 코드분할
+## 코드분할
 Vue는 지연된 로딩이라는 코드분할을 권유하고 있습니다.  
 [Vue지연된 로딩](https://router.vuejs.org/kr/guide/advanced/lazy-loading.html)  
 간단하게 설명하자면 각 컴포넌트마다 비동기 모듈로 호출하게 되서 bundle.js에 용량이 확 줄어들게 되죠.  
 아래와 같은 방식으로 코드분할 하시면됩니다.
 
-### AS-IS
+## AS-IS
 ```js
 import Event from '../components/Event.vue'
 Vue.use(Router)
@@ -125,7 +127,7 @@ const router = new Router({
   ]
 })
 ```
-### To-Be
+## To-Be
 ```js
 const Event = () => import('../components/Event.vue');  //코드분할하는 방식의 선언입니다.
 Vue.use(Router)
