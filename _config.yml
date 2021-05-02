@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Smartna Development Blog"
 title_separator          : "-"
 name                     : "윤민재"
-description              : "금융IT, 블록체인 개발"
+description              : "개발하는 DBA"
 url                      : https://drhot552.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -113,9 +113,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "윤민재"
+  name             : "스마트나"
   avatar           : "/assets/img/minjae.jpeg"
-  bio              : "현재 금융IT에 종사하고있고 웹기술, 데이터기술, 블록체인 등 다양한 IT에 관심을 가지고있습니다."
+  bio              : "개발하는 DBA"
   location         : "Seoul"
   email            :
   links:
