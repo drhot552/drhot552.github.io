@@ -105,6 +105,8 @@ try_files $uri $uri/ =404; : nginx는 정적 파일 호스팅을 기본적으로
 
 그럼 아래와 같이 /dist 폴더에 build 파일들이 만들어진다.
 ![Image Alt 텍스트](/assets/img/web/nginx1.png)  
+
+
 ![Image Alt 텍스트](/assets/img/web/nginx2.png)  
 
 그리고 /etc/nginx/sites-available/default 파일에서 아래 경로를 작성하면된다.
