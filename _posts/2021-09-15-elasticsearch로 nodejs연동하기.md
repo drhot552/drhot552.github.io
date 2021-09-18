@@ -21,14 +21,17 @@ ElasticSearch Cloud를 사용해서 Nodejs와 연동해보자
 ## ElasticSearch Cloud
 ![Image Alt 텍스트](/assets/img/web/elasticcloud.png)  
 인덱스 생성과 조회는 elastic cloud에서 API를 통해서 쉽게 사용이 가능하다. 
+
 - index 생성
-> PUT member?pretty
+> PUT /member?pretty
 ![Image Alt 텍스트](/assets/img/web/elasticindex_push.png)  
+
 - index 조회
-> GET member?pretty
+> GET /member?pretty
 ![Image Alt 텍스트](/assets/img/web/elasticindex_get.png)  
+
 - index 삭제
-> DELETE member?pretty
+> DELETE /member?pretty
 ![Image Alt 텍스트](/assets/img/web/elasticindex_delete.png)  
 
 ## Nodejs 연동
