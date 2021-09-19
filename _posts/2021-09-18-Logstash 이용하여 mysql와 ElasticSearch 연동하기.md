@@ -28,20 +28,25 @@ Logstash를 이용하여 데이터를 수집 변환하여 엘라스틱 Cloud서�
 먼저 Logstash를 구동하기 위한 AWS EC2서버를 하나 만들자.
 
 중요한건 꼭 16.03LTS 서버로 설치하자. 나중에 mysql-connector-java-5.1.38.jar 설치시 18.04버전 이후부터는 mysql jdbc 설치가 안된다. 
+
 > EC2 Ubuntu 16.03LTS 서버
 
 Logstash를 설치하기 전에 리눅스에 자바를 먼저 설치해야 한다.
 
 - 자바 설치
+
 > sudo apt-get update
+
 > sudo apt-get install openjdk-8-jdk
 
 단 자바는 8버전으로 설치해야 하고 JAVA_HOME, PATH를 설정한다.
 
 > export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+
 > export PATH=$PATH:$JAVA_HOME/bin
 
 - logstash 설치
+
 > sudo apt-get install logstash
 
 [Logstash 설치방법](https://www.elastic.co/guide/kr/logstash/5.3/installing-logstash.html)
@@ -62,7 +67,9 @@ Mysql을 서비스하기 때문에 mysql의 jdbc 드라이버가 필요하다. �
 AWS EC2리눅스 서버이기 때문에 MavenProject사이트에 다운을 받지 못해 명령어로 다운로드 설치를 해야한다.
 
 > sudo apt-get install libmysql-java
+
 > cd /usr/share/logstash/bin/
+
 > mv /usr/share/java/mysql-connector-java-5.1.38.jar  .
 
 mysql-connector-java-5.1.38.jar를 다운받으면 꼭 /usr/share/logstash/bin/ 폴더에 이동시켜야 한다.
@@ -125,6 +132,7 @@ elasticsearch cloud 정보를 입력하면 된다.
 생성한 conf파일을 실행하면 logstash를 이용하여 mysql에서 데이터를 읽어와 elasticsearch에 index를 생성하고 정보를 입력한다. 
 
 > cd /usr/share/logstash/bin/ 
+
 > ./logstash -f /home/ubuntu/db_info.conf &
 
 ![Image Alt 텍스트](/assets/img/web/logstash_3.png)  
