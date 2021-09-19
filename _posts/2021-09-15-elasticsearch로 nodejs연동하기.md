@@ -1,12 +1,12 @@
 ---
-title:  "ElasticSearch cloud를 이용하여 nodejs에서 사용하기_1"
+title:  "ElasticSearch cloud를 이용하여 nodejs에서 사용하기"
 categories:
   - WEB
 last_modified_at: 2021-09-10T18:06:00-05:00
 tags:
   - WEB
 toc: true
-toc_label: "ElasticSearch cloud를 이용하여 nodejs에서 사용하기_1"
+toc_label: "ElasticSearch cloud를 이용하여 nodejs에서 사용하기"
 ---
 # ElasticSearch
 ElasticSearch는 루씬 기반의 검색 엔진이다.
