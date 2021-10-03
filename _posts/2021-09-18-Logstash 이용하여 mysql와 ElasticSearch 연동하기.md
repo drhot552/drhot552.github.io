@@ -128,11 +128,12 @@ elasticsearch cloud 정보를 입력하면 된다.
 - document : elasticsearch의 구분 document (보통 rdbms의 테이블 키값을 정한다)
 - user / paswword  : elastcisearch 의 유저명과 패스워드 입력
 
-# logstash 실행
+# logstash 백그라운드로 실행
 생성한 conf파일을 실행하면 logstash를 이용하여 mysql에서 데이터를 읽어와 elasticsearch에 index를 생성하고 정보를 입력한다. 
 
 > cd /usr/share/logstash/bin/ 
 
 > ./logstash -f /home/ubuntu/db_info.conf &
+
 
 ![Image Alt 텍스트](/assets/img/web/logstash_3.png)  
