@@ -92,18 +92,15 @@ nodejs 서버가 AWS S3에 접근할 수 있는 권한이 필요하다. (없으�
 
 아래 모듈을 nodejs에서 npm으로 설치하자.
 
-1. aws 접근 
-
+### aws 접근 
 > npm install --save aws-sdk                //aws-sdk
 
-2. 파일 업로드 multer 모듈
-
+### 파일 업로드 multer 모듈
 > npm install --save multer                 //multer 모듈
 
 > npm install --save multer-s3-transform    //s3에 업로드할 multer모듈
 
-3. 파일의 용량을 줄이는 모듈
-
+### 파일의 용량을 줄이는 모듈
 > npm install --save sharp
 
 ```javascript
