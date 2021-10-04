@@ -18,8 +18,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Smartna Development Blog"
 title_separator          : "-"
-name                     : "스마트나"
-description              : "HereLux 서비스 개발자"
+name                     : "HereLux"
+description              : "사람을 위한 서비스를 만드는 개발자"
 url                      : http://hereluxury.com/
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -113,9 +113,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "스마트나"
+  name             : "Herelux"
   avatar           : "/assets/img/minjae.jpeg"
-  bio              : "HereLux 서비스 개발"
+  bio              : "사람을 위한 서비스를 만드는 개발자"
   location         : "Seoul"
   email            :
   links:

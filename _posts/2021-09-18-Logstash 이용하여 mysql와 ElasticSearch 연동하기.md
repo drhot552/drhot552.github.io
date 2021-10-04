@@ -1,12 +1,12 @@
 ---
-title:  "Logstash 이용하여 mysql와 ElasticSearch 연동하기"
+title:  "Logstash mysql와 ElasticSearch 연동하기"
 categories:
   - WEB
 last_modified_at: 2021-09-18T18:06:00-05:00
 tags:
   - WEB
 toc: true
-toc_label: "Logstash 이용하여 mysql와 ElasticSearch 연동하기"
+toc_label: "Logstash mysql와 ElasticSearch 연동하기"
 ---
 
 # Logstash

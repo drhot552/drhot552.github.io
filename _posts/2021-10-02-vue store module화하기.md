@@ -189,7 +189,16 @@ computed: {
 
 ### store의 mutation사용
 
+```javascript 
+//store 이름/ mutation name
+his.$store.commit('searchList/IDX_INCREMENT');
+```
+
 ### store의 action사용
+```javascript
+//store 이름/ actions name
+this.$store.dispatch('searchList/FETCH_ELASTICSEARCH_READMORE',{word:this.search, filter:0});
+```
 
 # 도움을 받았던 사이트
 [vuex 모듈](https://vuex.vuejs.org/kr/guide/modules.html)

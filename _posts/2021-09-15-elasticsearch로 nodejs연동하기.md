@@ -1,21 +1,27 @@
 ---
-title:  "ElasticSearch cloud를 이용하여 nodejs에서 사용하기"
+title:  "ElasticSearch nodejs에서 사용하기"
 categories:
   - WEB
 last_modified_at: 2021-09-10T18:06:00-05:00
 tags:
   - WEB
 toc: true
-toc_label: "ElasticSearch cloud를 이용하여 nodejs에서 사용하기"
+toc_label: "ElasticSearch nodejs에서 사용하기"
 ---
 # ElasticSearch
-ElasticSearch는 루씬 기반의 검색 엔진이다.
-HTTP 웹 인터페이스와 스키마에서 자유로운 JSON 문서와 함께 분산 멀티테넌트 지원 전문 검색 엔진을 제공한다. 일래스틱서치는 자바로 개발되어 있으며 아파치 라이선스 조항에 의거하여 오픈 소스로 출시되어 있다. 
+ElasticSearch는 루씬 기반의 검색 엔진이다.(검색결과) <br>
+HTTP 웹 인터페이스와 스키마에서 자유로운 JSON 문서와 함께 분산 멀티테넌트 지원 전문 검색 엔진을 제공한다. <br> 일래스틱서치는 자바로 개발되어 있으며 아파치 라이선스 조항에 의거하여 오픈 소스로 출시되어 있다. 
 
 [ElasticSearch의 구조및 개념](https://www.elastic.co/guide/kr/elasticsearch/reference/current/gs-basic-concepts.html)
 
+# ElasticSearch를 사용한 이유?
+Elastic을 사용한 이유는 검색엔진을 구현해서 좀 더 정확하고 넓게 사용하기 위해서다.
+
+SQL기반의 검색은 단점은 검색어에 대한 단점이 존재한다. 
+
+
 # ElasticSearch에 Nodejs와 연동하기
-ElasticSearch Cloud를 사용해서 Nodejs와 연동해보자
+ElasticSearch Cloud를 사용해서 Nodejs와 연동해보자. <br>
 가장먼저 ElasticSearch Cloud에 가입하면 30일동안 무료로 사용할 수 있다.
 
 ## ElasticSearch Cloud
@@ -35,8 +41,8 @@ ElasticSearch Cloud를 사용해서 Nodejs와 연동해보자
 ![Image Alt 텍스트](/assets/img/web/elasticindex_delete.png)  
 
 ## Nodejs 연동
-ElasticCloud에서 API로 index를 직접 조회하는 것이 매우 간편하게 되어있다. 구지 코드로 조회하지 않아도 테스트가 가능하기 때문이다. 우리는 nodejs를 통해서 직접 연동해보자.
-먼저 Nodejs 프로젝트에 모듈을 설치하자
+ElasticCloud에서 API로 index를 직접 조회하는 것이 매우 간편하게 되어있다. <br>구지 코드로 조회하지 않아도 테스트가 가능하기 때문이다.<br> 우리는 nodejs를 통해서 직접 연동해보자. <br>
+먼저 Nodejs 프로젝트에 모듈을 설치하자 <br>
 > npm install --save @elastic/elasticsearch
 그리고 아래 코드로 작성하면 된다.
 ```javascript
