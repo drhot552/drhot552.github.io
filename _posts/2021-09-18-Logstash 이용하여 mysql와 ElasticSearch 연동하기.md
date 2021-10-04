@@ -10,18 +10,20 @@ toc_label: "Logstash 이용하여 mysql와 ElasticSearch 연동하기"
 ---
 
 # Logstash
-RDBMS로 운영중인 서비스를 어떻게 하면 엘라스틱서치와 연동하여 데이터를 사용할 수 있을 지 고민하였다.
-연동방법에 대해 Elasticsearch를 찾아보던 중 Logstash라는 모듈이 있었다. 
+RDBMS로 운영중인 서비스를 어떻게 하면 엘라스틱서치와 연동하여 데이터를 사용할 수 있을 지 고민하였다. <br>
+연동방법에 대해 Elasticsearch를 찾아보던 중 Logstash라는 모듈이 있었다.
 
 엘라스틱서치 공식홈페이지에서는 Logstash라는 녀석을 아래와 같이 정의하고 있다.
+
 > 데이터 집계, 변환, 저장
 
-Logstash를 이용하여 데이터를 수집 변환하여 엘라스틱 Cloud서버에 저장하는 것이라고 이해했다.
+로그 데이터를 다루는데 적합한 녀석이지만 나는 데이터베이스에서 가져오는 걸로 사용목적이랑 조금 다르게 사용했다.<br>
+
 
 [Logstash의 개념](https://www.elastic.co/kr/logstash/)
 
 # Logstash와 Mysql와 ElasticSearch 연동하기
-그럼 Logstash와 Mysql을 어떻게 연동할 수 있을까?
+그럼 Logstash와 Mysql을 어떻게 연동할 수 있을까? <be>
 많은 구글링 끝에 logstash와 mysql 연동하는 걸 정리해본다.
 
 ## Logstash 구동 서버 (AWS EC2)

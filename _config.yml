@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Smartna Development Blog"
 title_separator          : "-"
 name                     : "스마트나"
-description              : "HereLux 서비스 개발"
+description              : "HereLux 서비스 개발자"
 url                      : http://hereluxury.com/
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "스마트나"
-  avatar           : "/assets/img/herelux.jpeg"
+  avatar           : "/assets/img/minjae.jpeg"
   bio              : "HereLux 서비스 개발"
   location         : "Seoul"
   email            :
