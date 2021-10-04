@@ -93,11 +93,13 @@ nodejs 서버가 AWS S3에 접근할 수 있는 권한이 필요하다. (없으�
 아래 모듈을 nodejs에서 npm으로 설치하자.
 
 1. aws 접근 
+
 > npm install --save aws-sdk                //aws-sdk
 
 2. 파일 업로드 multer 모듈
 
 > npm install --save multer                 //multer 모듈
+
 > npm install --save multer-s3-transform    //s3에 업로드할 multer모듈
 
 3. 파일의 용량을 줄이는 모듈
@@ -186,6 +188,8 @@ router.post('/write', upload.fields([{name:"image_1"}]),function(req,res){
 그럼 VUE로 만든 서비스에 이미지를 올려보면 성공적으로 올라가는걸 확인할 수 있다.👌
 
 ![Image Alt 텍스트](/assets/img/server/nodejs_image_1.png)
+
+### 업로드 후 이미지 크기
 ![Image Alt 텍스트](/assets/img/server/nodejs_image_2.png)
 
 용량도 1.4MB->242.9KB 로 줄어서 AWS S3에 업로드 된걸 확인할 수 있다.
