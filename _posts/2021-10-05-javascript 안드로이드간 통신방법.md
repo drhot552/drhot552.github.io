@@ -148,6 +148,41 @@ public void check() {
 }
 
 ```
+## 안드로이드 로컬스토리지 사용하기
+
+로컬스토리지는 `PreferenceManager.setString` 으로 세팅이 가능하며 마찬가지로 자바스크립트에서 호출이 가능하다.!!
+
+
+### 안드로이드 코드 
+```java
+@JavascriptInterface
+        public void token(final String token) {
+            mHandler.post(new Runnable() {
+                public void run() {
+                    //String token = PreferenceManager.getString(mContext, "token");
+                        //text = "저장된 데이터가 없습니다.";
+                    PreferenceManager.setString(mContext, "token", token);
+
+                }
+            });
+        }
+```
+
+### 자바스크립트 코드
+```javascript
+if(navigator.userAgent.match(/Android|Tablet/i)){
+    if(navigator.userAgent.match(/herelux_app_and/i)){
+    window.android.token(this.kakaotokenArry.access_token);
+    window.android.id(this.kakaoInfo.kakao_account.email);
+    window.android.type('kakao');
+    }
+
+}
+````
+
+자바스크립트 코드도 안드로이드 함수만 호출하면 끝!😮‍
+
+간단하죠~?? 😀😀
 
 # 도움받았던 사이트
 [linuxism](https://linuxism.ustd.ip.or.kr/1112)
