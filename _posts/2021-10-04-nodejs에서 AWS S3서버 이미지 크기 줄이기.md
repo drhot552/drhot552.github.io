@@ -1,12 +1,12 @@
 ---
-title:  "nodejs AWS S3서버 이미지 크기 줄이기(vue)"
+title:  "nodejs AWS S3서버 이미지 올리기 multer-s3"
 categories:
   - Server
 last_modified_at: 2021-10-04T18:06:00-05:00
 tags:
   - Server
 toc: true
-toc_label: "nodejs AWS S3서버 이미지 크기 줄이기(vue)"
+toc_label: "nodejs AWS S3서버 이미지 올리기 multer-s3"
 ---
 
 # vue에서 nodejs 서버로 이미지 올리기
