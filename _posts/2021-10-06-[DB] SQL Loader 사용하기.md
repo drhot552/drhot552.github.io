@@ -23,7 +23,7 @@ SQL Loader를 사용하는건 매우 간단하다.
 # 파일
 `/Users/yunminjae/product_202108291709.csv` 의 파일은 `,`의 구분자로 데이터가 구분되어 있다. 
 
-![Image Alt 텍스트](/assets/img/db/sqlloader1.png)  
+![Image Alt 텍스트](/assets/img/db/sql_loader1.png)  
 
 이 파일을 SQL Loader로 올린다고 하면 어떻게 구성할 수 있을까?
 
@@ -59,7 +59,7 @@ TRAILING NULLCOLS         -- 6
  - 업로드할 파일 경로를 작성한다. 전체경로를 입력.
 
  - STR '\r\n' 마지막 개행문자를 작성한다. 엔터값은 아래구문으로 확인할 수 있다.
- 
+
   > \n - unix
 
   > \r - mac
