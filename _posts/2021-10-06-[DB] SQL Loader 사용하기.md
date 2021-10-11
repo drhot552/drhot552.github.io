@@ -50,14 +50,11 @@ TRAILING NULLCOLS         -- 6
 
 하나씩 살펴보자.
 
-1. OPTIONS (SKIP = 1) 
-
+### OPTIONS (SKIP = 1) 
  - 파일의 맨 첫줄은 제외한다. 
 
-2. INFILE '파일경로' "STR '\r\n'" 
-
+### INFILE '파일경로' "STR '\r\n'" 
  - 업로드할 파일 경로를 작성한다. 전체경로를 입력.
-
  - STR '\r\n' 마지막 개행문자를 작성한다. 엔터값은 아래구문으로 확인할 수 있다.
 
   > \n - unix
@@ -66,20 +63,16 @@ TRAILING NULLCOLS         -- 6
   
   > \r\n - windows
 
-3. APPEND/TRUNCATE
-
+### APPEND/TRUNCATE
  - APPEND는 데이터를 추가해서 입력. TRUNCATE는 테이블 TRUNCATE 후 입력
 
-4. INTO TABLE 테이블명
-
+### INTO TABLE 테이블명
  - 테이블 명을 작성 ex) luxury.product
 
-5. FIELDS TERMINATED BY '|' 
-
+### FIELDS TERMINATED BY '|' 
  - 각 필드별로 구분자를 어떤 구분자로 할 건지 작성
 
-6. TRAILING NULLCOLS
-
+### TRAILING NULLCOLS
  - 컬럼순으로 데이터 셋이 안맞을 경우 null로 채워서 그대로 입력 (단, 테이블이 NOT NULL인 조건일 경우)
 
 
@@ -93,23 +86,20 @@ sqlldr userid=DB유저이름/DB Passwd control=test.ctl data=product_20210829170
 
 실행 구문도 하나씩 살펴보자.
 
-1. userid
-
+### userid
  - DB userId와 password를 작성
 
-2. control
-
+### control
  - 위에서 작성한 `test.ctl` 을 입력
 
-3. data
-
+### data
  - 데이터를 입력할 데이터파일
 
-4. direct 옵션
- Direct 옵션을 사용하면 빠르게 Import 작업을 진행할 수 있다. direct 옵션을 사용하지 않게 되면 SGA 메모리를 사용하게 되며 이는 DB Wait Event 발생 위험이 있다. (convential)
+### direct 옵션
+ - Direct 옵션을 사용하면 빠르게 Import 작업을 진행할 수 있다. direct 옵션을 사용하지 않게 되면 SGA 메모리를 사용하게 되며 이는 DB Wait Event 발생 위험이 있다. (convential)
 
-5. log file 
- log file은 sqlloader 시 성공한 결과를 보여준다. 실패할 경우에는 `.bad` 파일 형식으로 남게 된다. 
+### log file 
+ - log file은 sqlloader 시 성공한 결과를 보여준다. 실패할 경우에는 `.bad` 파일 형식으로 남게 된다. 
 
 
 # 도움을 받았던 사이트
