@@ -55,7 +55,7 @@ TRAILING NULLCOLS         -- 6
 
 ### INFILE '파일경로' "STR '\r\n'" 
  - 업로드할 파일 경로를 작성한다. 전체경로를 입력.
- - STR '\r\n' 마지막 개행문자를 작성한다. 엔터값은 아래구문으로 확인할 수 있다.
+ - STR '\r\n' 마지막 개행문자를 작성한다. 엔터값은 아래 값으로 확인할 수 있다.
 
   > \n - unix
 
@@ -99,9 +99,9 @@ sqlldr userid=DB유저이름/DB Passwd control=test.ctl data=product_20210829170
  - Direct 옵션을 사용하면 빠르게 Import 작업을 진행할 수 있다. direct 옵션을 사용하지 않게 되면 SGA 메모리를 사용하게 되며 이는 DB Wait Event 발생 위험이 있다. (convential)
 
 ### log file 
- - log file은 sqlloader 시 성공한 결과를 보여준다. 실패할 경우에는 `.bad` 파일 형식으로 남게 된다. 
+ - log file은 sqlloader 시 성공한 결과를 보여준다. 실패할 경우에는 `.bad` 파일 형식으로 남게 된다. <br>
 
 
 # 도움을 받았던 사이트
-[[Java] 줄바꿈 하기 (\n, \r, \r\n 의 차이)](https://hianna.tistory.com/602)
+[[Java] 줄바꿈 하기 (\n, \r, \r\n 의 차이)](https://hianna.tistory.com/602)<br>
 [[Oracle] SQL Loader 데이터 이동 사용법](https://myjamong.tistory.com/224)
