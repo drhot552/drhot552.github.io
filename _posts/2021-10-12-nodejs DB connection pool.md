@@ -134,4 +134,4 @@ module.exports.query= async function(conn, sql, arry){
 [connection Pool](https://ko.wikipedia.org/wiki/%EC%97%B0%EA%B2%B0_%ED%92%80)<br>
 [커넥션 풀_제티위키](https://zetawiki.com/wiki/%EC%BB%A4%EB%84%A5%EC%85%98_%ED%92%80)<br>
 [Connection pool을 사용함으로써 얻는 이점은 무엇일까?](https://1-7171771.tistory.com/119)<br>
-(https://t-anb.tistory.com/53)
+[db coonnection pool](https://t-anb.tistory.com/53)
