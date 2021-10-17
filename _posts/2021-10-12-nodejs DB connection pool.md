@@ -105,6 +105,7 @@ const conn = db.createPool({
 아래코드는 db pool정보를 이용하여 SQL Query를 가져오는 module이다. 
 
 성공시 Commit을 실패시 Rollback을 한다. (DML작업시)
+
 ```javascript
 module.exports.query= async function(conn, sql, arry){
     try {
