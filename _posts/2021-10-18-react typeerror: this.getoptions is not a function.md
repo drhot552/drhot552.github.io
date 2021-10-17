@@ -23,7 +23,7 @@ import 'styles/base.scss';
 `sass-loader`를 npm이나 yarn으로 설치하게 되면 최신버전으로 설치되게 된다.<br>
 버전확인은 `package.json`에서 패키지별 버전을 확인할 수 있다.
 
-![Image Alt 텍스트](/assets/img/db/sql_loader1.png)  
+![Image Alt 텍스트](/assets/img/web/sass-loader.png)  
 
 `sass-loader` 버전을 10.1.0버전으로 다운그레이드 해서 재설치해야한다.
 
