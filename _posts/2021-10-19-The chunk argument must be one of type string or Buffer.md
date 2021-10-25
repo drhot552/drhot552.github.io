@@ -1,5 +1,5 @@
 ---
-title:  "[ERR_INVALID_ARG_TYPE]"
+title:  "The chunk argument must be one of type string or Buffer"
 
 categories:
   - WEB
