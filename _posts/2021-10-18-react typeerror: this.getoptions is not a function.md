@@ -15,6 +15,8 @@ react 프로젝트에서 `Sass-loader` 설정 시 `this.getoptions is not a func
 
 이유는 scss파일의 import시 앞부분 상대경로설정 없이 설정할 때 `yarn start` 시 오류가 났는데, 
 
+해결하는 방법은 간단했다. 
+
 ```javascript
 import 'styles/base.scss';
 ```
@@ -24,6 +26,8 @@ import 'styles/base.scss';
 버전확인은 `package.json`에서 패키지별 버전을 확인할 수 있다.
 
 ![Image Alt 텍스트](/assets/img/web/sass-loader.png)  
+
+가장먼저 `sass-loader`와 `node-sass`의 버전을 다운그레이드 하는 것이 먼저 해야할 일이다.
 
 `sass-loader` 버전을 10.1.0버전으로 다운그레이드 해서 재설치해야한다.
 
