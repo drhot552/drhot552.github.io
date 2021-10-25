@@ -1,5 +1,5 @@
 ---
-title:  "[ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer"
+title:  "[ERR_INVALID_ARG_TYPE]: The chunk argument must be one of type string or Buffer"
 
 categories:
   - WEB
@@ -7,7 +7,7 @@ last_modified_at: 2021-10-19T18:06:00-05:00
 tags:
   - WEB
 toc: true
-toc_label: "[ERR_INVALID_ARG_TYPE]: The "chunk" argument must be one of type string or Buffer"
+toc_label: "[ERR_INVALID_ARG_TYPE] The chunk argument must be one of type string or Buffer"
 ---
 
 # The "chunk" argument must be one of type string or Buffer
