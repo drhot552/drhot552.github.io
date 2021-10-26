@@ -17,6 +17,9 @@ toc_label: "webpack3에서 webpack4로 업그레이드"
 
 web에서 `build.js`를 캐싱하고 있었던 것!!
 
+![Image Alt 텍스트](/assets/img/web/webpack3_build.png)  
+
+
 그래서 `html-webpack-plugin`와 `clean-webpack-plugin` 이 두 모듈을 이용해서 `index.html`파일을 자동으로 생성하면서 `build.js`명을 hash 값으로 만들어주려고 했다.
 
 하지만.. `webpack3`에서는 제대로 동작을 하지 않아 `webpack4`로 버전 업그레이드하기로 결정!
@@ -75,7 +78,7 @@ Require stack:
 
 > npm install vue-loader@14.2.2
 
-업그레이드 후 `npm run build`를 하면 이상없이 build되는 것을 확인할 수 있었다!!
+업그레이드 후 `npm run build` 및 `npm run dev` 하면 이상없이 실행 또는 build되는 것을 확인할 수 있었다!!
 
 ![Image Alt 텍스트](/assets/img/web/webpack3_error_2.png)  
 

@@ -57,6 +57,7 @@ sass부분을 찾아서 `webpack.config.js` 파일도 아래와 같이 수정하
         : isEnvDevelopment,
     },
     'sass-loader'
+    //sass-loader 여기서부터가 추가한 내용
     ).concat({
     loader: require.resolve("sass-loader"),
     options: {
