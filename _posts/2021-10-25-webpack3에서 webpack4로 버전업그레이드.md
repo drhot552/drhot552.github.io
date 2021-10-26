@@ -53,7 +53,8 @@ Require stack:
 ```
 
 구글링으로 찾아보니 npm으로 실행시 `webpack-dev-server`의 버전 문제였다. 2.9.1에서 3이상의 버전으로 업그레이드 시켜줘야한다.<br>
-`webpack-dev-server`의 3버전은 `webpack-cli`로 webpack을 실행시키기 때문에 webpack-cli로 같이 설치해줘야한다.
+`webpack-dev-server`의 3버전은 `webpack-cli`로 webpack을 실행시키기 때문에 webpack-cli로 같이 설치해줘야한다.<br>
+[webpack-dev-server](https://www.npmjs.com/package/webpack-dev-server)
 
 > npm install webpack-dev-server@3
 
