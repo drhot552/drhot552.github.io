@@ -76,6 +76,3 @@ sass부분을 찾아서 `webpack.config.js` 파일도 아래와 같이 수정하
 ```
 
 sass-loader와 node-sass를 다운그레이드 후 webpack.config.js를 수정하면 오류가 해결된다.
-
-# 도움을 받았던 사이트
-[React Sass-loader 설정 커스터마이징 오류](https://steadily-worked.tistory.com/40)<br>
