@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "개발과 암호화폐 이야기"
 title_separator          : "-"
 name                     : "스마트나"
-description              : "기술로 사람을 위한 서비스를 만드는 개발자"
+description              : "사람을 위한 서비스를 만드는 개발자"
 url                      : http://hereluxury.com/
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -113,7 +113,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Herelux"
+  name             : "스마트나"
   avatar           : "/assets/img/minjae.jpeg"
   bio              : "사람을 위한 서비스를 만드는 개발자"
   location         : "Seoul"
