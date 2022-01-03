@@ -16,17 +16,7 @@ layout: default
 
 <div id="main" role="main">
   {% include sidebar.html %}
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8532671905114810"
-  crossorigin="anonymous"></script>
-   <ins class="adsbygoogle"
-       style="display:block; text-align:center;"
-       data-ad-layout="in-article"
-       data-ad-format="fluid"
-       data-ad-client="ca-pub-8532671905114810"
-       data-ad-slot="8595850363"></ins>
-   <script>
-       (adsbygoogle = window.adsbygoogle || []).push({});
-   </script>
+
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
@@ -69,7 +59,17 @@ layout: default
             </script>
           </aside>
         {% endif %}
-       
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8532671905114810"
+     crossorigin="anonymous"></script>
+      <ins class="adsbygoogle"
+          style="display:block; text-align:center;"
+          data-ad-layout="in-article"
+          data-ad-format="fluid"
+          data-ad-client="ca-pub-8532671905114810"
+          data-ad-slot="8595850363"></ins>
+      <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
         {{ content }}
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <ins class="adsbygoogle"
