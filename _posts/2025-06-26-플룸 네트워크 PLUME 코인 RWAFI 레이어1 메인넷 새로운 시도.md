@@ -6,8 +6,6 @@ categories:
 last_modified_at: 2025-06-26T18:06:00-05:00
 tags:
   - 암호화폐
-toc: true
-toc_label: "플룸 네트워크 PLUME 코인 RWAFI 레이어1 메인넷 전망"
 ---
 
 # RWAFI라고 들어보셨나요?
