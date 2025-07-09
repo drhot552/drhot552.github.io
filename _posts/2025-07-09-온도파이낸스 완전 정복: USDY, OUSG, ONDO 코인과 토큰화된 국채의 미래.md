@@ -1,5 +1,5 @@
 ---
-title: "온도 파인내스 완전 정복: USDY, OUSG, ONDO 코인과 토큰화된 국채의 미래"
+title: "온도파이낸스 완전 정복: USDY, OUSG, ONDO 코인과 토큰화된 국채의 미래"
 date: 2025-07-09
 categories:
   - 암호화폐
