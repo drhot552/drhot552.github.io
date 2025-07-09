@@ -118,7 +118,7 @@ RWA 뿐 아니라 **주식 토큰화(Security Tokens)**의 본격적인 토대�
 
 ### 🔹 토큰 분배 구조
 
-![Image Alt 텍스트](/assets/img/crypto/20250709/ondo.png) <br>
+![Image Alt 텍스트](/assets/img/crypto/250709/ondo.png) <br>
 
 
 
