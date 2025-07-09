@@ -3,7 +3,7 @@ title: "온도 파인내스 완전 정복: USDY, OUSG, ONDO 코인과 토큰화�
 date: 2025-07-09
 categories:
   - 암호화폐
-tags: ["RWA", "지니어스법안", "암호화폐"]
+tags: ["RWA", "온도파이낸스", "암호화폐"]
 ---
 
 
