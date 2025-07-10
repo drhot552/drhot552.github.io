@@ -91,39 +91,39 @@ RWAFI는 다음 3가지 요소로 구성됩니다:
 
 ## Plume Network 메인넷 스테이킹 하기
 
-1. 빗썸에서 플룸, 이더리움 메타마스크로 주소로 전송
+- 빗썸에서 플룸, 이더리움 메타마스크로 주소로 전송
 
 빗썸에서 플룸코인과 이더리움 코인을 매수 <br>
 이더리움은 가스비때문에 대략 2만원 정도 매수해도 된다.<br>
 
-![Image Alt 텍스트](/assets/img/crypto/20250710/1.png) <br>
+![Image Alt 텍스트](/assets/img/crypto/250710/1.png) <br>
 
-2. plume network 메인넷 브릿지로 이더리움에서 plume 메인넷 변경
+- plume network 메인넷 브릿지로 이더리움에서 plume 메인넷 변경
 
 [plume network 메인넷](https://portal.plume.org/) <br>
 메인넷포털은 정말 ui/ux적으로 잘 만들어진 포털이다. <br>
 포털을 통해서 브릿지로 이동해서 플룸네트워크 메인넷으로 변경하면된다.
 
-![Image Alt 텍스트](/assets/img/crypto/20250710/2.png) <br>
+![Image Alt 텍스트](/assets/img/crypto/250710/2.png) <br>
 
 <br>
 
-![Image Alt 텍스트](/assets/img/crypto/20250710/3.png) <br>
+![Image Alt 텍스트](/assets/img/crypto/250710/3.png) <br>
 
 
-3. plume network 메인넷 스테이킹 
+- plume network 메인넷 스테이킹 
 
-- 4.5% 이율
+> 4.5% 이율 <br>
 메인넷 스테이킹은 **plume foundation**으로 선택후 스테이킹을하면 **스테이킹 시작부터 21일**까지 락업이된다. <br>
 
-![Image Alt 텍스트](/assets/img/crypto/20250710/6.png) <br>
+![Image Alt 텍스트](/assets/img/crypto/250710/6.png) <br>
 
-4. 스테이킹을 통해 PP(plume point) 얻기
+- 스테이킹을 통해 PP(plume point) 얻기
 
 플룸포인트를 얻어 에어드랍 시즌2 보상에 참여할수 있다. 시즌2보상은 아직 일정은 공개되지 않았고, 1억 5천만개의 plume토큰이 분배될 예정이다. <br>
 
-![Image Alt 텍스트](/assets/img/crypto/20250710/7.png) <br>
+![Image Alt 텍스트](/assets/img/crypto/250710/7.png) <br>
 
 <br>
 
-![Image Alt 텍스트](/assets/img/crypto/20250710/8.png) <br>
+![Image Alt 텍스트](/assets/img/crypto/250710/8.png) <br>
