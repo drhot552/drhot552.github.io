@@ -1,5 +1,5 @@
 ---
-title: "체인링크(LINK) 코인 전망: 체인링크를 주목하는 이유 RWA의 미래는 LINK에 있다?"
+title: "체인링크(LINK) 전망: 체인링크를 주목하는 이유 RWA의 미래는 LINK에 있다?"
 date: 2025-07-31
 categories:
   - 암호화폐
