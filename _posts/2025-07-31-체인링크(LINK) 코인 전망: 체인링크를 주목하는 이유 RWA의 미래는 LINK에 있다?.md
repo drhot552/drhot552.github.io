@@ -143,8 +143,8 @@ RWA에서는 다양한 정보와 조건을 바탕으로 계약을 자동화하�
 
 ## 투자에 좋을까?
 
+![Image Alt 텍스트](/assets/img/crypto/250731/2.jpeg){: width="40%" height="50%"}
 ![Image Alt 텍스트](/assets/img/crypto/250731/3.jpeg){: width="40%" height="50%"}
-![Image Alt 텍스트](/assets/img/crypto/250731/4.jpeg){: width="40%" height="50%"}
 
 ```
 1. 높은 시가총액 
