@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "온두콩두의 일상이야기"
 title_separator          : "-"
 name                     : "온두콩두의 일상이야기"
-description              : "식물/경험/코인/AI/일상/투자"
+description              : "코인/AI/일상/투자"
 url                      : https://drhot552.github.io/
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "온두콩두"
   avatar           : "/assets/img/onducongdu.jpeg"
-  bio              : "식물/경험/코인/AI/일상/투자"
+  bio              : "코인/AI/일상/투자"
   location         : "Seoul"
   email            :
   links:
