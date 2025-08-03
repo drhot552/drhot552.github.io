@@ -61,7 +61,7 @@ AI 캐릭터들이 만든 콘텐츠를 보는 유저도 단순한 **‘시청자
 ## 버추얼 프로토콜 (토크노믹스)
 버추얼 프로토콜을 투자하기에 앞서 가장 중요한 토큰의 유틸리티와 토크노믹스를 알아봐야해요. <br>
 
-![출처 cyptorank - virtual protocal](/assets/img/crypto/250729/3.jpeg) <br>
+![출처 cyptorank - virtual protocal](/assets/img/crypto/250729/3.jpeg "출처: cyptorank - virtual protocal") <br>
 
 
 **총 발행량**: 1,000,000,000 VIRTUAL 토큰 (10억개)
