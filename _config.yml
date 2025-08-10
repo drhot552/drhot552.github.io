@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "온두콩두의 일상이야기"
+title                    : "온두콩두의 투자이야기"
 title_separator          : "-"
-name                     : "온두콩두의 일상이야기"
+name                     : "온두콩두의 투자이야기"
 description              : "코인/AI/일상/투자"
 url                      : https://drhot552.github.io/
 baseurl                  : # the subpath of your site, e.g. "/blog"
