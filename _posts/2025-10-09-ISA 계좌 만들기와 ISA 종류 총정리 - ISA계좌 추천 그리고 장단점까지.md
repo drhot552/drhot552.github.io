@@ -52,6 +52,8 @@ ISA(Individual Savings Account) 는 정부가 세금을 줄여주는 **‘통합
 
 > 주로 개인인 경우 **중개형 ISA**를 많이 선택해서 하고 있어요. 그 이유는 주식 투자, 다양한 상품투자를 직접 할 수 있는 장점 때문입니다.
 
+---
+
 # ISA계좌 준비물
 ISA 계좌는 **19세 이상 거주자**라면 은행이나 증권사에서 개설할 수 있으며, 대부분 **비대면으로 증권사 앱**을 통해 개설하는 것이 가장 간편해요. <br>
 ISA계좌는 정말 쉽게 만들 수 있습니다. 먼저 준비물을 살펴볼게요. <br>
@@ -67,6 +69,8 @@ ISA계좌는 정말 쉽게 만들 수 있습니다. 먼저 준비물을 살펴�
             농/어업인 확인서 또는 농/어업 경영체 등록 확인서
 ```
 
+---
+
 # ISA계좌 만들기(한국투자증권 - 비대면개설)
 비대면 개설 기준으로 **ISA중개형** 으로 **일반형**으로 만들었을 경우로 만들었습니다.  <br>
 
@@ -77,16 +81,16 @@ KB증권, 삼성증권 등 모든 증권사 앱들도 동일하게 모바일로 
 
 ![Image Alt 텍스트](/assets/img/invest/20251009/1.png){: width="60%" height="60%"}<br>
 
-![Image Alt 텍스트](/assets/img/invest/20251009/2.png){: width="40%" height="50%"}<br>
-![Image Alt 텍스트](/assets/img/invest/20251009/3.png){: width="40%" height="50%"}<br>
+![Image Alt 텍스트](/assets/img/invest/20251009/2.png){: width="60%" height="60%"}<br>
+![Image Alt 텍스트](/assets/img/invest/20251009/3.png){: width="60%" height="60%"}<br>
 
 
 ## 2. ISA + 국내/해외주식 + CMA(증권사 통장 개념 - 입출금 자유로움)
 계좌개설시 ISA (중개형, 일반형)으로 개설되며 주식거래를 할 수 있도록 선택 할 수 있어요. <br>
 
-![Image Alt 텍스트](/assets/img/invest/20251009/4.png){: width="40%" height="50%"}<br>
+![Image Alt 텍스트](/assets/img/invest/20251009/4.png){: width="60%" height="60%"}<br>
 
-![Image Alt 텍스트](/assets/img/invest/20251009/5.png){: width="40%" height="50%"}<br>
+![Image Alt 텍스트](/assets/img/invest/20251009/5.png){: width="60%" height="60%"}<br>
 
 ## 3. 투자성향 위험 이상으로 설정 (주식투자으로 인한 선택)
 미국 주식이나 ETF거래에 있어서는 투자성향을 위험이상으로 하셔야해요. 저는 위험 중립형으로 하였습니다. <br>
@@ -99,12 +103,14 @@ KB증권, 삼성증권 등 모든 증권사 앱들도 동일하게 모바일로 
 서민형 가입자격은 소득확인 증명서 제출이 필수적입니다. <br>
 때문에 **소득확인증명서의 발급번호와 발급일자**를 필수로 모바일에 입력해야 하고 증명받으셔야 해요.
 
-![Image Alt 텍스트](/assets/img/invest/20251009/7.png){: width="40%" height="50%"}<br>
+![Image Alt 텍스트](/assets/img/invest/20251009/7.png){: width="60%" height="60%"}<br>
 
-![Image Alt 텍스트](/assets/img/invest/20251009/8.png){: width="40%" height="50%"}<br>
+![Image Alt 텍스트](/assets/img/invest/20251009/8.png){: width="60%" height="60%"}<br>
 
 
 > 소득이 서민형에 충족되면 꼭 소득확인 증명서를 통해서 서민형으로 전환하는게 중요해요.
+
+---
 
 # ISA계좌 장단점
 무엇보다 장점은 세제혜택이고 단점은 3년간 유지해야하는 문제가 있습니다. 금융거래에 있어서 3년이 짧지만 긴 거래시간이기도 해서 단점으로 꼽힙니다. 
