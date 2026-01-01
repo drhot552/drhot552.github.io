@@ -2,7 +2,7 @@
 title:  "The chunk argument must be one of type string or Buffer"
 
 categories:
-  - WEB
+  - 개발
 last_modified_at: 2021-10-19T18:06:00-05:00
 tags:
   - WEB

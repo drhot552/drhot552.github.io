@@ -2,7 +2,7 @@
 title:  "Vue Caching 문제 해결하기"
 
 categories:
-  - WEB
+  - 개발
 last_modified_at: 2021-10-26T18:06:00-05:00
 tags:
   - WEB

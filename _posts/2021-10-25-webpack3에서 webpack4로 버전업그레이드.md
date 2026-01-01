@@ -2,7 +2,7 @@
 title:  "webpack3에서 webpack4로 업그레이드"
 
 categories:
-  - WEB
+  - 개발
 last_modified_at: 2021-10-25T18:06:00-05:00
 tags:
   - WEB

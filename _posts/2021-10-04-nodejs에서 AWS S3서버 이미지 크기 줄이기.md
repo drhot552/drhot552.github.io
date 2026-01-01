@@ -1,7 +1,7 @@
 ---
 title:  "nodejs AWS S3서버 이미지 올리기 multer-s3"
 categories:
-  - Server
+  - 개발
 last_modified_at: 2021-10-04T18:06:00-05:00
 tags:
   - Server

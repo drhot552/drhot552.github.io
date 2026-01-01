@@ -2,7 +2,7 @@
 title:  "[Web]웹기술 프론트엔드"
 
 categories:
-  - WEB
+  - 개발
 last_modified_at: 2019-04-13T18:06:00-05:00
 tags:
   - WEB

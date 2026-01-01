@@ -2,7 +2,7 @@
 title:  "react typeerror: this.getoptions is not a function"
 
 categories:
-  - WEB
+  - 개발
 last_modified_at: 2021-10-18T18:06:00-05:00
 tags:
   - WEB

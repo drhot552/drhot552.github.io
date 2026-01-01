@@ -1,7 +1,7 @@
 ---
 title:  "ElasticSearch nodejs에서 사용하기"
 categories:
-  - WEB
+  - 개발
 last_modified_at: 2021-09-10T18:06:00-05:00
 tags:
   - WEB

@@ -2,7 +2,7 @@
 title:  "[DB] 오라클 SQL Loader 사용하기(엔터값포함 업로드하기)"
 
 categories:
-  - DB
+  - 개발
 last_modified_at: 2021-10-06T18:06:00-05:00
 tags:
   - DB

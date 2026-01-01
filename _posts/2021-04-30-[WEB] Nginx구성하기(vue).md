@@ -2,7 +2,7 @@
 title:  "[Web]Ubuntu Nginx구성하기(vue)"
 
 categories:
-  - WEB
+  - 개발
 last_modified_at: 2021-04-30T18:06:00-05:00
 tags:
   - WEB
